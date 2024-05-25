@@ -88,6 +88,25 @@
 
 
 
+
+									Delete এর ব্যবহার
+1>> /*Folder থেকে সরাসরি two.txt file কে Delete করে আবার stage এ তুলতে চাইলে = git add .  এখন আবার git reset দিয়ে 
+		git status দিলে শুধু changed টা ফিরে আসবে কিন্তু কোনো file ফিরে আসবে না */
+		আর যদি 
+		//file সহ সবকিছু ফিরিয়ে আনতে চাই = git reset --hard
+	
+
+
+								Remove এর ব্যবহার
+1>> //file টা Delete করবে এবং সাথে সাথে stageএ তুলে দিবে = git rm two.txt
+2>> //একটা folder এর ভেতরে যত গোলো folder বা file আছে সবকিছু remove করতে চাইলে =  git rm -r Folder (r এর ফুল মেনিং recourcif)
+3>> // আগে modify করে পরে   = git rm two.txt দিলে আর remove করতে দিবে না, আগে changeটা commit করে পরে remove করতে হবে 
+	সেই ক্ষেত্রে আমি যদি remove করতেই চাই তাহলে = git rm two.txt -f (f এর ফুল মেনিং forch)
+	
+4>> // আগে modify করে পরে = git rm --cached two.txt দিয়ে git status দিলে changeটে দেখাবে stageএ উঠে গেছে কিন্তু fileটা ডিলেট হয় নি
+
+
+
 						Working director <<<<< Local repository
 
 1>> commit করার পরে আবার Working director যেতে চাইলে = git reset HEAD~

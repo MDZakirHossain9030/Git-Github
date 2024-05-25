@@ -1,6 +1,8 @@
                                         Git and Gihub
                                   git & github = SubmitEvent
-                                    
+
+
+					  
 ==>>computere একটা folder create করতে হবে অথবা
         github এ একটি repositiory(folder) create করতে হবে github এর repository বা folder টা যদি আমাদের computere আনতে চাই 
         তাহলে github থেকে url copy করে এনে  git bash গিয়ে লেখতে হবে =
@@ -9,6 +11,9 @@
  এখন computerer folder অথবা github থেকে নিয়ে আসা folder যেটাতেই কাজ করতে চাই   initialization করতে  হবে
  initialization মানে হলো folder এর দিকে সবসময় চেয়ে থাকবে কোথায় পরিবর্তন হয়েছে  কি পরিবর্তন হয়েছে 
                                                                               git init (enter) দিলেই initialization folder create হয়ে যাবে
+
+
+
 
 
                                           Folder or File create
@@ -20,6 +25,8 @@
 				touch demo.css (enter)
 				touch demo.js (enter)
 				touch demo.txt ect (enter) এভাবে যত খুশি ইচ্ছা file create করা যাবে
+
+
 
 				
 			Folder and file details
@@ -38,7 +45,9 @@
 				clear (enter)
 
 
-						Working director >>>> stage = add
+
+
+						Working director >>>>> stage = add
 					
 1>> যা আছে সবকিছুকে stageএ তুলতে চাইলে ( দুইভাবে তুলা যায়)
 				git add --all (enter)
@@ -55,5 +64,30 @@
 				
 5>> txt বা png বা jpg এই ধরনের যত file থাকে সব fileকে একসাথে stageএ তুলতে চাইলে =
 				git add *.txt বা png বা jpg 
-6>> //stage থেকে Working director ফিরে যেতে চাইলে =
+
+
+
+					Working director <<<<< stage
+
+1>> stage থেকে Working director ফিরে যেতে চাইলে =
 				git Reset (enter)
+
+
+
+
+
+					stage >>>>> Local repository = commit
+
+1>> stage থেকে Local repositoryতে নিতে চাইলে =
+				git commii -m "I have changed" ( যে কোনো একটা মেসেজ দিয়ে দিলে ভালো হয় )
+2>> local repository তে কতগোলো এ্যাপ্লিকেশন আছে তা দেখার জন্য =
+								 git log
+								 git lot --online
+
+
+
+
+
+						Working director <<<<< Local repository
+
+1>> commit করার পরে আবার Working director যেতে চাইলে = git reset HEAD~

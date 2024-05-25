@@ -8,4 +8,4 @@
 
  এখন computerer folder অথবা github থেকে নিয়ে আসা folder যেটাতেই কাজ করতে চাই   initialization করতে  হবে
  initialization মানে হলো folder এর দিকে সবসময় চেয়ে থাকবে কোথায় পরিবর্তন হয়েছে  কি পরিবর্তন হয়েছে 
-                                                                                                 git init (enter) দিলেই initialization folder create হয়ে যাবে
+                                                                              git init (enter) দিলেই initialization folder create হয়ে যাবে

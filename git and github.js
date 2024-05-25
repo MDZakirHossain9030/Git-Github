@@ -10,3 +10,12 @@
  initialization মানে হলো folder এর দিকে সবসময় চেয়ে থাকবে কোথায় পরিবর্তন হয়েছে  কি পরিবর্তন হয়েছে 
                                                                               git init (enter) দিলেই initialization folder create হয়ে যাবে
 
+
+                                          Folder or File create
+1>> //git এ নতুন folder create করতে চাইলে =
+                                    mkdir myFolder (folder er name) (enter), এভাবে যত খুশি ইচ্ছা folder create করা যাবে
+2>> // file create করতে চাইলে = 
+							touch demo.html (enter)
+							touch demo.css (enter)
+							touch demo.js (enter)
+							touch demo.txt ect (enter) এভাবে যত খুশি ইচ্ছা file create করা যাবে

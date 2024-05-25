@@ -88,6 +88,11 @@
 
 
 
+						Working director <<<<< Local repository
+
+1>> commit করার পরে আবার Working director যেতে চাইলে = git reset HEAD~
+
+
 
 									Delete এর ব্যবহার
 
@@ -99,15 +104,19 @@
 
 
 								Remove এর ব্যবহার
-1>> //file টা Delete করবে এবং সাথে সাথে stageএ তুলে দিবে = git rm two.txt
-2>> //একটা folder এর ভেতরে যত গোলো folder বা file আছে সবকিছু remove করতে চাইলে =  git rm -r Folder (r এর ফুল মেনিং recourcif)
-3>> // আগে modify করে পরে   = git rm two.txt দিলে আর remove করতে দিবে না, আগে changeটা commit করে পরে remove করতে হবে 
-	সেই ক্ষেত্রে আমি যদি remove করতেই চাই তাহলে = git rm two.txt -f (f এর ফুল মেনিং forch)
-	
-4>> // আগে modify করে পরে = git rm --cached two.txt দিয়ে git status দিলে changeটে দেখাবে stageএ উঠে গেছে কিন্তু fileটা ডিলেট হয় নি
+
+1>> file টা Delete করবে এবং সাথে সাথে stageএ তুলে দিবে =
+						git rm two.txt
+2>> একটা folder এর ভেতরে যত গোলো folder বা file আছে সবকিছু remove করতে চাইলে =
+						git rm -r Folder (r এর ফুল মেনিং recourcif)
+3>> কোনো file যদি modify করি এবং stage নাতুলে যদি remove করতে চাই তারা remove করতে দেবে না আর যদি remove করতেই চাই =
+									git rm two.txt -f (f এর ফুল মেনিং forch)
+		
+4>> এটা উপরের এটার বিপরীত = কোনো file যদি modify করি এবং stage নাতুলে remove করতে চাই তাহলে তারা stage তুলবে কিন্তু 
+	file remove হবেনা শুধু জানিয়ে দিবেযে stage উঠেছি =
+		 			git rm --cached two.txt
+		
 
 
 
-						Working director <<<<< Local repository
 
-1>> commit করার পরে আবার Working director যেতে চাইলে = git reset HEAD~

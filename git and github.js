@@ -24,9 +24,36 @@
 				
 			Folder and file details
 
-3>> আমরা কোন folder এ আছি তা দেখার জন্য = pwd (enter) 
-4>> ১ folder সামনে বা ভেতরে যেতে চাইলে  = cd myFolder (folder er name)	(enter)					
-5>> ১ folder পিছনে যেতে চাইলে  = cd ../ (enter)
-6>> কতটা file আছে তা দেখতে চাইলে = ls (enter)
-7>> কোন কোন folder এ পরিবর্তন হয়েছে বা ডিটেলস দেখতে চাইলে =  git status (enter)
-8>> terminal full হয়ে গেলে সব লেখা মুছার জন্য =  clear (enter)
+1>> আমরা কোন folder এ আছি তা দেখার জন্য =
+				pwd (enter) 
+2>> ১ folder সামনে বা ভেতরে যেতে চাইলে  = 
+				cd myFolder (folder er name)	(enter)					
+3>> ১ folder পিছনে যেতে চাইলে  = 
+				cd ../ (enter)
+4>> কতটা file আছে তা দেখতে চাইলে =
+				ls (enter)
+5>> কোন কোন folder এ পরিবর্তন হয়েছে বা ডিটেলস দেখতে চাইলে =
+				git status (enter)
+6>> terminal full হয়ে গেলে সব লেখা মুছার জন্য =
+				clear (enter)
+
+
+						Working director >>>> stage = add
+					
+1>> যা আছে সবকিছুকে stageএ তুলতে চাইলে ( দুইভাবে তুলা যায়)
+				git add --all (enter)
+				git add -A (enter)
+									 
+2>> যে folder এ আছি সেই folder এর সব file কে stage তুলতে চাইলে =
+				git add . (enter) (it's best practice)
+3>> নতুন file create করলে সেটা stage উঠবে কিন্তু Delete করা কোনো file stageএ উঠবে না  =
+				git add *(enter)
+3>> কোনো ইন্ডেভেজুয়াল file কে stage তুলতে চাইলে (one.txt কে শুধু stage এ তুলতে চাচ্ছি)
+				git add one.txt (enter)
+4>> myFolder ভেতরে গিয়ে তুলতে চাইলে three.txt file কে stage তুলতে চাচ্ছি 
+				git add myFolder/three.txt (enter)
+				
+5>> txt বা png বা jpg এই ধরনের যত file থাকে সব fileকে একসাথে stageএ তুলতে চাইলে =
+				git add *.txt বা png বা jpg 
+6>> //stage থেকে Working director ফিরে যেতে চাইলে =
+				git Reset (enter)

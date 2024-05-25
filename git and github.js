@@ -12,10 +12,21 @@
 
 
                                           Folder or File create
-1>> //git এ নতুন folder create করতে চাইলে =
+
+1>> git এ নতুন folder create করতে চাইলে =
                                     mkdir myFolder (folder er name) (enter), এভাবে যত খুশি ইচ্ছা folder create করা যাবে
-2>> // file create করতে চাইলে = 
-							touch demo.html (enter)
-							touch demo.css (enter)
-							touch demo.js (enter)
-							touch demo.txt ect (enter) এভাবে যত খুশি ইচ্ছা file create করা যাবে
+2>>  file create করতে চাইলে = 
+				touch demo.html (enter)
+				touch demo.css (enter)
+				touch demo.js (enter)
+				touch demo.txt ect (enter) এভাবে যত খুশি ইচ্ছা file create করা যাবে
+
+				
+			Folder and file details
+
+3>> আমরা কোন folder এ আছি তা দেখার জন্য = pwd (enter) 
+4>> ১ folder সামনে বা ভেতরে যেতে চাইলে  = cd myFolder (folder er name)	(enter)					
+5>> ১ folder পিছনে যেতে চাইলে  = cd ../ (enter)
+6>> কতটা file আছে তা দেখতে চাইলে = ls (enter)
+7>> কোন কোন folder এ পরিবর্তন হয়েছে বা ডিটেলস দেখতে চাইলে =  git status (enter)
+8>> terminal full হয়ে গেলে সব লেখা মুছার জন্য =  clear (enter)

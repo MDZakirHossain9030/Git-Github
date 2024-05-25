@@ -90,10 +90,11 @@
 
 
 									Delete এর ব্যবহার
-1>> /*Folder থেকে সরাসরি two.txt file কে Delete করে আবার stage এ তুলতে চাইলে = git add .  এখন আবার git reset দিয়ে 
-		git status দিলে শুধু changed টা ফিরে আসবে কিন্তু কোনো file ফিরে আসবে না */
-		আর যদি 
-		//file সহ সবকিছু ফিরিয়ে আনতে চাই = git reset --hard
+
+1>> stage তুলার পর যদি কোনো file Delete করে ফেলি এবং git reset দিয়ে git status দিলে শুধু Delete হওয়া file দেখাবে কিন্তু Delete হওয়া file টা ফিরে আসবেনা 
+	যদি folder এ file সহ ফিরিয়ে আনতে চাই =
+					git reset --hard
+
 	
 
 

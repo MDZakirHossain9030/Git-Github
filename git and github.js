@@ -115,7 +115,29 @@
 4>> এটা উপরের এটার বিপরীত = কোনো file যদি modify করি এবং stage নাতুলে remove করতে চাই তাহলে তারা stage তুলবে কিন্তু 
 	file remove হবেনা শুধু জানিয়ে দিবেযে stage উঠেছি =
 		 			git rm --cached two.txt
-		
+
+
+
+
+
+										Branch--শাখা
+
+1>> আমাদের এ্যাপ্লিকেশনে ( github ) কয়টা branch আছে তা দেখার জন্য =
+							git branch
+2>> New branch create করতে চাইলে =
+			git branch developement (developement নামে একটা নতুন branch create করেছি )নতুন branch create করলে main branch
+			এর সব কিছু copy হয়ে নতুন branchএ চলে যাবে
+3>> এক branch থেকে অন্য branchএ যেতে চাইলে  =
+					git checkout developement
+4>> এক branch এর file  অন্য branch এ নিয়ে আসতে চাই প্রথমে create করা branch এ গিয়ে merge করতে হবে main branch এর সাথে =
+											git merge main -m "যে কোনো মেসেজ"
+আবার checkout করে main branch গিয়ে create করা branch এর সাথে merge করতে হবে 
+
+
+																														
+5>> main branch & developement branch দুইটাইতেই যদি modify করি তাহলে developement branch এর সাথে main branch Auto merge হবে না 													
+			সেই ক্ষেত্রে দুইজনে ফোনে কথা বলে যেকোনো একটা file ঠিক করতে হবে
+			
 
 
 

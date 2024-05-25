@@ -141,4 +141,27 @@
 
 
 
+								Local repositiory >>>>> Remote = push
+
+1>> Local থেকে Remote এ নিতে চাইলে = 
+			git push origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote )
+
+
+
+
+
+							 Local repositiory <<<<<< Remote Local = fetch/pull
+
+1>> remote এর কোনো file এ  modify করেছি এবং Local এ আনতে চাচ্ছি =
+					git fetch এখন git status দিলে শধু changes টা দেখতে পারব কিন্তু কোনো file দেখতে পারব না 
+	দেখার জন্য আবার =
+			git merge করতে হবে 
+	
+
+
+2>> remote file গোলোকে  merge করে একসাথে নিয়ে আসতে চাইলে =
+			git pull তাহলে আর নতুন করে git merge করতে হবে না 
+		এবং 
+		কী কী modify করেছি সেগোলোও দেখতে পারবো
+
 

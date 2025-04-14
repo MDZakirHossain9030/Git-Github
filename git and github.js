@@ -83,19 +83,15 @@
 				
 <:GITHUB:>
 
-						Local repository >>>>>> remote repository push -u origin branch-name
+						Local repository >>>>>> remote repository = push -u origin (branch-name)
 1>> Local থেকে Remote এ নিতে চাইলে = git push -U origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
-
-
 
 
 							Local repositiory <<<<<< Remote Local = fetch/pull
 2>> remote repo গোলোকে merge করে একসাথে নিয়ে আসতে চাইলে = git pull (তাহলে আর নতুন করে git merge করতে হবে না সাথে কী কী modify করেছি সেগোলোও দেখতে পারবো)
 		
 
-
-
-									 
+	
 ==>>computere থেকে কোনো repo local directory তে আনতে চাইলে = git clone(url copy past) 
 
 

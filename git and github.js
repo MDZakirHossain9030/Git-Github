@@ -57,7 +57,7 @@
 2>> commit করার পরে আবার Working director যেতে চাইলে = git reset --soft HEAD^ (যে fileটা commit করেছি সেই fileটা undo হয়ে stageএ চলে আসবে)
 						      = git reset -- heard HEAD^ (UNDO হয়ে working directoryতে চলে যাবে সাথে সাথে লেখা সহ মুছে যাবে)
 						      = git reset --HEAD^ (UNDO হবে সাথে সাথে working directory তে চলে যাবে)
-						      = git checkout head (UNDO হবে সাথে সাথে working directory তে চলে যাবে)
+						     
 
 
 

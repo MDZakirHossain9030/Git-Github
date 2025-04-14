@@ -39,29 +39,22 @@
 
 
 
-						Working directory >>>>> stage = add .
+						Working directory >>>>> stage = git add .
 							
- অনেক ভাবে Working directory থেকে stage এ তুলা যায় তার মধ্যে এইটা best
-1>> যে folder এ আছি সেই folder এর সব file কে stage তুলতে চাইলে = git add . (enter)
+						Working director <<<<< stage = git Reset(enter)
 
 
 
-						Working director <<<<< stage
-1>> stage থেকে Working director ফিরে যেতে চাইলে = git Reset (enter)
 
+						stage >>>>> Local repository = commit -m "any message"
 
-
-						stage >>>>> Local repository = commit -m"any message"
-1>> stage থেকে Local repositoryতে নিতে চাইলে =
-				git commii -m "I have changed" ( যে কোনো একটা মেসেজ দিয়ে দিলে ভালো হয় )
-2>> local repository তে কতগোলো এ্যাপ্লিকেশন আছে তা দেখার জন্য =	git log or (enter)
+1>> local repository তে কতগোলো এ্যাপ্লিকেশন আছে তা দেখার জন্য =	git log or (enter)
 							      = git log --oneline (enter)
 
 					
- 
 						Working director <<<<< Local repository
 
-1>> commit করার পরে আবার Working director যেতে চাইলে = git reset --soft HEAD^ (যে fileটা commit করেছি সেই fileটা undo হয়ে stageএ চলে আসবে)
+2>> commit করার পরে আবার Working director যেতে চাইলে = git reset --soft HEAD^ (যে fileটা commit করেছি সেই fileটা undo হয়ে stageএ চলে আসবে)
 						      = git reset -- heard HEAD^ (UNDO হয়ে working directoryতে চলে যাবে সাথে সাথে লেখা সহ মুছে যাবে)
 						      = git reset --HEAD^ (UNDO হবে সাথে সাথে working directory তে চলে যাবে)
 

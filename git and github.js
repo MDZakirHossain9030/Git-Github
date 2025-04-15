@@ -41,7 +41,7 @@
 
 						Working directory >>>>> stage = git add .
 							
-						Working director <<<<< stage = git Reset(enter)
+						Working director <<<<< stage = git reset(enter)
 
 
 

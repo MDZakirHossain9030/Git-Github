@@ -67,9 +67,10 @@
 1>> কতটা branch আছে তা দেখার জন্য = git branch (enter)
 2>> new branch create করতে চাইলে = git baranch branch-name (enter)
 3>> এক branch থেকে অন্য branch এ যাওয়ার জন্য = git checkout branch-name(যে branch এ যেতে চাচ্ছি সেই branch এর নামে)
-4>> branch delete করার জন্য  = git branch -d branch-name (main branch গিয়ে অন্য branch delete করতে হবে)
-5>> এক branch এর লেখা অন্য branch এ নিতে চাইলে মানে marge করতে চাইলে = git merge main -m "যে কোনো মেসেজ" (main branch এ গিয়ে marge করতে হবে তার মানে অন্য branch এর লেখা marge করে main branch এ আনতে চাচ্ছি)
-6>> main branch & developement branch দুইটাইতেই যদি modify করি তাহলে developement branch এর সাথে main branch Auto merge হবে না 													
+4>> branch rename করার জন্য = git branch -m dev developement(dev barnch থেকে developement নামে হয়ে যাবে)
+5>> branch delete করার জন্য  = git branch -d branch-name (main branch গিয়ে অন্য branch delete করতে হবে)
+6>> এক branch এর লেখা অন্য branch এ নিয়ে আসতে চাইলে = git merge main -m "যে কোনো মেসেজ" (main branch এ গিয়ে marge করতে হবে তার মানে অন্য branch এর লেখা marge করে main branch এ আনতে চাচ্ছি)
+7>> main branch & developement branch দুইটাইতেই যদি modify করি তাহলে developement branch এর সাথে main branch Auto merge হবে না 													
 			সেই ক্ষেত্রে দুইজনে ফোনে কথা বলে যেকোনো একটা file ঠিক করতে হবে 
 
 

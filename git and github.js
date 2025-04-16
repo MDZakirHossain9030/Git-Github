@@ -66,7 +66,7 @@
 <:BRANCH:>
 1>> কতটা branch আছে তা দেখার জন্য = git branch (enter)
 2>> new branch create করতে চাইলে = git baranch branch-name (enter)
-3>> এক branch থেকে অন্য branch এ যাওয়ার জন্য = git checkout branch-name 	(যে branch এ যেতে চাচ্ছি সেই branch এর নামে)
+3>> এক branch থেকে অন্য branch এ যাওয়ার জন্য = git checkout branch-name(যে branch এ যেতে চাচ্ছি সেই branch এর নামে)
 4>> branch delete করার জন্য  = git branch -d branch-name (main branch গিয়ে অন্য branch delete করতে হবে)
 5>> এক branch এর লেখা অন্য branch এ নিতে চাইলে মানে marge করতে চাইলে = git merge main -m "যে কোনো মেসেজ" (main branch এ গিয়ে marge করতে হবে তার মানে অন্য branch এর লেখা marge করে main branch এ আনতে চাচ্ছি)
 6>> main branch & developement branch দুইটাইতেই যদি modify করি তাহলে developement branch এর সাথে main branch Auto merge হবে না 													
@@ -85,14 +85,14 @@
 <:GITHUB:>
 
 			Local repository ++ remote repository কে connect করতে হবে = git remote add origin(github এর repository এর url copy past) 
-			Local repository >>>>>> remote repository =  git push -U origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
+
+				Local repository এর সাথে remote repository কে connect করার পরে নিচের যেকোনো command কাজ করবে
+			1>> Local repository >>>>>> remote repository =  git push -U origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
+			2>> git fetch (দিলে দেখাবে নতুন কোনো ফাইল বা লেটা যোগ হয়ছে কিনা)
+			3>> git pull origin main(মানে main branch এর সব কিছু pull করে আমাদে working directory তে নিয়ে আসবে)
 
 
-							Local repositiory <<<<<< Remote repo = fetch/pull(
-2>> remote repo গোলোকে merge করে একসাথে নিয়ে আসতে চাইলে = git pull (তাহলে আর নতুন করে git merge করতে হবে না সাথে কী কী modify করেছি সেগোলোও দেখতে পারবো)
-		
-
-
+				
 ==>>github এর repository এর url copy করে git base এ এসে = git clone(url copy past) দিলে github এর file সহকারে desktop এর মধ্যে চলে আসবে
 
 

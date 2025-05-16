@@ -6,6 +6,7 @@
 <:GIT:>
 
 // todo: git এর গল্প
+
 1>> কোথায় আছি ==> pwd
 2>> এখানে কি কি আছে ==> ls -a
 3>> আরেকটু ভেতরে ঢুকি ==> cd (dir name)
@@ -21,6 +22,7 @@
 13>> সবকিছু মন থেকে বাদ দেওয়ার জন্য ==> clear or ctrl+l (এল)
 
 
+<:GIT:> এর কাজ
 
 1>> বর্তমানে কোন file এ আছি = pwd (enter)
 2>> file এ কি কি আছ তা দেখার জন্য = ls -a 	(-a দিলে hidden file সহ দেখাবে)
@@ -84,11 +86,15 @@
 
 				
 <:GITHUB:>
-
+			<:LOCAL REPO ++ REMOTE REPO = CONNECT :>
 			Local repository ++ remote repository কে connect করতে হবে = git remote add origin(github এর repository এর url copy past) 
 
 				Local repository এর সাথে remote repository কে connect করার পরে নিচের যেকোনো command কাজ করবে
+					
+			<:LOCAL REPO থেকে REMOTE REPO তে রাখতে চাচ্ছি:>
 			1>> Local repository >>>>>> remote repository =  git push -U origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
+
+			<:REMOTE REPO থেকে LOCAL REPO তে আনতে চাচ্ছি:>
 			2>> git fetch (দিলে দেখাবে নতুন কোনো ফাইল বা লেটা যোগ হয়ছে কিনা)
 			3>> git pull origin main(মানে main branch এর সব কিছু pull করে আমাদে working directory তে নিয়ে আসবে)
 

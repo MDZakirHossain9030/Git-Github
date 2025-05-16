@@ -92,7 +92,7 @@
 				Local repository এর সাথে remote repository কে connect করার পরে নিচের যেকোনো command কাজ করবে
 					
 			<:LOCAL REPO থেকে REMOTE REPO তে রাখতে চাচ্ছি:>
-			1>> Local repository >>>>>> remote repository =  git push -U origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
+			1>> Local repository >>>>>> remote repository =  git push -u origin main ( main মানে main branch এ নিতে চাচ্ছি আর origin মানে হলো remote)
 
 			<:REMOTE REPO থেকে LOCAL REPO তে আনতে চাচ্ছি:>
 			2>> git fetch (দিলে দেখাবে নতুন কোনো ফাইল বা লেটা যোগ হয়ছে কিনা)
